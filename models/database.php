@@ -9,12 +9,6 @@ catch(Exception $e)
 {
     die('ERROR:'.$e->getMessage());
 }
-    
-  $reponse = $bdd->query('SELECT * FROM jeux_video');
-while ($donnees = $reponse->fetch())
-{
-	echo $donnees['nom'];
-}
 
 ?>
 

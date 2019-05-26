@@ -1,7 +1,7 @@
 <?php 
 	require_once('models/checkIfIdentify.php');
 class Controller {
-	public $checkIfIdentify;
+	// public $checkIfIdentify;
 
 	public function __construct()
 	{

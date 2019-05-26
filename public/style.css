@@ -1,1 +1,92 @@
-/*CSS*/
+h2 {
+	padding-top: 100px;
+	text-align: center;
+	color: #2aa7ad;
+	border: 3px dotted orange;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  /*background-color: white;*/
+}
+.container > div {
+  display: flex;
+}
+nav {
+  width: 100%;
+  min-width: 345px;
+  justify-content: center;
+}
+
+.container > nav li {
+  display: inline;
+  margin-right: 20px;
+  
+}
+.container > nav a  {
+    font-size: 20px;
+    color: #808080;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.container > nav a:hover {
+    color: #2aa7ad;
+}
+
+/**********************  Formulaire de connexion  ******************/
+.formContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.formContainer > form {
+    position: relative;
+    line-height: 1.4;
+    width: 350px;
+    height: 550px;
+    margin-right: 150px;
+    margin-top: 40px;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.8);   
+}
+.formContainer > form h2 {
+  margin-top: 1px;
+}
+.formContainer > form h4 {
+  margin-bottom: 1px;
+  color: #5b5b5b;
+}
+.formContainer > form p {
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 17px;
+}
+label {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: #349ec2;
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px #148CB4 solid;
+  border-bottom: 3px #056B8D solid;
+}
